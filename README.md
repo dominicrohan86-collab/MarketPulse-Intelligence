@@ -40,6 +40,17 @@ Investors and analysts often need to compare market trends, sector leadership, t
 - Accessible charts: every chart includes a title, caption, tooltip labels, and text summary.
 - Responsive layout: dense desktop analysis adapts into stacked cards and mobile-friendly controls.
 
+## Design Preview
+
+Home Page
+<img width="1728" height="912" alt="Screenshot 2026-05-01 at 4 27 57 AM" src="https://github.com/user-attachments/assets/67a666c8-d0de-4265-8d5b-e47b5fb8c9fe" />
+
+Stock Watchlist
+<img width="1728" height="912" alt="Screenshot 2026-05-01 at 4 28 06 AM" src="https://github.com/user-attachments/assets/5e0080ba-8c79-4b5a-8813-d84b1ae1f752" />
+
+Market Trends
+<img width="1728" height="912" alt="Screenshot 2026-05-01 at 4 28 48 AM" src="https://github.com/user-attachments/assets/5ca97fcd-7ef2-4c37-925f-b0b93079666b" />
+
 ## Data Visualization Rationale
 
 - KPI cards summarize high-level market state and mixed signals.
