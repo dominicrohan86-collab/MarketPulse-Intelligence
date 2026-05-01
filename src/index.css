@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background: #071018;
+  color: #e5edf7;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --chart-blue: #68a4ff;
+  --chart-green: #2fc38a;
+  --chart-amber: #f0b84a;
+  --chart-rose: #e36d79;
+  --chart-violet: #9b8cff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(63, 140, 255, 0.18), transparent 34rem),
+    radial-gradient(circle at 86% 12%, rgba(47, 195, 138, 0.1), transparent 28rem),
+    #071018;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background:
+    linear-gradient(140deg, rgba(7, 16, 24, 0.96), rgba(12, 23, 36, 0.97) 48%, rgba(15, 23, 42, 0.98)),
+    #071018;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #68a4ff;
+  outline-offset: 3px;
+}
+
+::selection {
+  background: rgba(104, 164, 255, 0.34);
+}
+
+.recharts-default-tooltip {
+  border-radius: 8px !important;
+  border: 1px solid rgba(148, 163, 184, 0.26) !important;
+  background: rgba(7, 16, 24, 0.96) !important;
+  box-shadow: 0 16px 45px rgba(2, 8, 23, 0.38) !important;
+  color: #e5edf7 !important;
+}
+
+.scrollbar-soft {
+  scrollbar-color: rgba(148, 163, 184, 0.42) transparent;
+}
+
+.scrollbar-soft::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.scrollbar-soft::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.34);
+}
+
+.glass-panel {
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background:
+    linear-gradient(180deg, rgba(22, 34, 51, 0.92), rgba(11, 20, 32, 0.94)),
+    rgba(11, 20, 32, 0.94);
+  box-shadow: 0 18px 55px rgba(2, 8, 23, 0.28);
+  backdrop-filter: blur(18px);
+}
+
+.light-panel {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: linear-gradient(180deg, rgba(248, 250, 252, 0.97), rgba(232, 238, 246, 0.95));
+  color: #172033;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
